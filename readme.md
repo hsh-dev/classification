@@ -34,7 +34,7 @@ python split.py
 
 3. 최종 폴더 구조
 
-- week1_626 안에 train_img 와 test_img 폴더가 생기면 됩니다.
+- classfication 폴더 안에 train_img 와 test_img 폴더가 생기면 됩니다.
 
 
 # Task!!
