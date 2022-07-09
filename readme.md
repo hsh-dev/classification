@@ -1,4 +1,4 @@
-# ~6.26 스터디
+# Image Classfication
 
 # 데이터 다운로드 방법
 URL:
@@ -18,18 +18,29 @@ week1_626
 ├── split.py
 └── translate.py
 ``` 
-3. cv2, numpy 설치
+
+# 데이터 전처리 방법
+
+1. cv2, numpy 설치
 
 ``` 
 pip install opencv-python, numpy
 ``` 
-4. split.py 실행
+2. split.py 실행
 
 ``` 
 python split.py
 ``` 
 
-5. 최종 폴더 구조
+3. 최종 폴더 구조
 
 - week1_626 안에 train_img 와 test_img 폴더가 생기면 됩니다.
 
+
+# Task!!
+pytorch 또는 tensorflow로 동물들을 구분할 수 있는 파이프라인을 만들고 전처리된 testset에 대해서 어느 정도의 성능이 나오는지 지표도 기입해주세요.
+
+TODO:
+1. 전체적인 파이프라인 코드 구현
+2. trainset으로 인공지능 모델 학습
+3. testset에 대한 평가 (metric은 accuracy, recall, precision, f1-score 등 confusion matrix에서 쓰는 지표 중 1개 이상 값을 내면 됩니다.)
