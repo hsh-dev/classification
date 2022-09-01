@@ -1,4 +1,4 @@
-# Image Classfication
+# Image Classification
 
 # 데이터 다운로드 방법
 URL:
